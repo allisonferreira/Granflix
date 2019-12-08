@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="./cartaz.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./stylecartaz.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Imagens/icon.ico" type="image/png">
+    <title>Granflix</title>
+</head>
+
+<body style="background-image: url(./Imagens/fundo2.jpg)">
+
+
+    <div class="menu">
+        <div class="logotipo">
+            <a href="index.html"><img src="./Imagens/Logotipo.jpeg" alt="Logotipo"></a>
+        </div>
+        <div class="conteudo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="institucional.html">Sobre nós</a></li>
+            <li>Filmes
+                <ul>
+                    <div id="opcao">
+                        <li><a href="cartaz.html">Em cartaz</a></li><br>
+                        <li><a href="cartaz.html">Em breve</a></li>
+                    </div>
+                </ul>
+            </li>
+        </div>
+        <div class="icones2"><a href="login.html"><img src="./Imagens/perfil.png" alt=""></a><a href="carrinho.html">
+            <img src="./Imagens/carrinho.png" alt=""></a></div>
+
+            <div class="expo">
+                    <div class="emcartaz">Filmes em Cartaz:</div>
+                    
+                    <img src="./Imagens/coringa.png" alt="Coringa" onclick="apresentar1()">
+                    <img src="./Imagens/parcas.jpg" alt="Os Parças 2" onclick="apresentar2()">
+                    <img src="./Imagens/carcereiros.jpg" alt="Carcereiros" onclick="apresentar3()">
+                    <img src="./Imagens/lastchristimas.jpg" alt="Last hristimas" onclick="apresentar4()">
+                    <img src="./Imagens/malevola.jpg" alt="Malévola" onclick="apresentar5()">
+                
+                    <div class="titulos">
+                        <label>Coringa</label>
+                        <label>Os Parças 2</label>
+                        <label>Carcereiros: O filme</label>
+                        <label>Last Christimas</label>
+                        <label>Malévola</label>
+                    </div>
+
+                    <br><br>
+                    <img src="./Imagens/addams.jpg" alt=" A Família Addams" onclick="apresentar6()">
+                    <img src="./Imagens/doraaventureira.jpg" alt="Dora Aventureira" onclick="apresentar7()">
+                    <img src="./Imagens/medoprofundo.jpg" alt="Medo Profundo" onclick="apresentar8()">
+                    <img src="./Imagens/brooklyn.jpg" alt="Brooklyn: Sem pai e sem Mãe" onclick="apresentar9()">
+                    <img src="./Imagens/aspanteras.jpg" alt="As Panteras" onclick="apresentar10()">
+                    
+                    <div class="titulos">
+                            <label>A família Addams</label>
+                            <label>Dora Aventureira</label>
+                            <label>Medo profundo 2</label>
+                            <label>Brooklyn-Sem Pai Nem Mãe</label>
+                            <label>As Panteras</label>
+                        </div>
+
+                </div>
+    </div>
+
+
+
+    <!-- https://codepen.io/IIFLIPII/pen/pWGVjg
+https://codepen.io/reinis/pen/yOrOXN
+https://codepen.io/1abdelrahman/pen/bJEJmm
+https://www.youtube.com/watch?v=7u8vR-pQrYQ 
+https://www.w3schools.com/tags/att_value.asp-->
+</body>
+
+</html>
+<script>
+    $('.single-item').slick();
+</script>

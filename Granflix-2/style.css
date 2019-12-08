@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;   
+    
+}
+
+.logotipo img{
+
+    width:240px;
+    float: left;
+}
+.logotipo img:hover{
+    opacity: 70%;
+}
+
+.menu{
+    background-color: black;
+    float: right;
+    width: 100%;
+    text-align: center;
+    height: 86.136px;
+    
+}
+
+.menu a{
+    color:#ffcc00;
+    font-family: 'Righteous', cursive;
+    font-size: 2vw;
+    font-weight: bold;
+    padding: 2vh;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.menu a:hover{
+    opacity: 0.6;
+}
+.conteudo{
+    margin-left: 35vw;
+    margin-top: 1vh;
+}
+.menu li{
+    color:#ffcc00;
+    font-family: 'Righteous', cursive;
+    font-size: 2vw;
+    font-weight: bold;
+    padding-left: 4vh;
+    text-decoration: none;
+    text-align: justify;
+    float: left;
+    display: inline-block;
+    margin-top: -10px;
+    /* position: relative; */
+    
+}
+/* .menu li:hover{
+    opacity: 0.6;
+} */
+.menu ul{
+    display: none;
+}
+.menu li:hover > ul{
+    display: block;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+    top: 27px;
+    position: absolute;
+
+}
+.menu ul li{
+    padding: 0;
+}
+.icones{
+    float: right;
+}
+.icones img{
+    width: 35px;
+    padding-right: 3vh;
+}
+.icones img:hover{
+    transform: scale(1.3);
+}
+.icones2{
+    float: right;
+}
+.icones2 img{
+    width: 8vh;
+    padding-right: 3vh;
+    margin-top: -22px;
+}
+.icones2 img:hover{
+    transform: scale(1.3);
+}
+
+/* .expo{
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+}
+.expo img{
+    border-color: #ffcc00;
+    float: left;
+    margin-left: 4%;
+    
+    padding: 1%;
+    border-radius: 15%;
+    width: 13%;
+}
+.expo img:hover{
+    transform: scale(1.1);
+}
+
+.emcartaz{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #ffcc00;
+    font-size: 3vw;
+    font-family: 'Righteous', cursive;
+    
+} */
+
+/* .rodape{
+    float: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#ffcc00;
+    margin-top: 4vw;
+    
+}
+.rodape1 h3{
+    font-family: 'Righteous', cursive;
+    margin-left: 15px;
+    font-size: 20px;   
+
+}
+.rodape1 b{
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.rodape1{
+    font-family: sans-serif;
+}
+.rodape2{
+    margin-left: 50%;
+    width: 50%;
+    bottom: 0;
+    position: fixed;
+}
+.rodape2 img{
+    width: 13px;
+    padding: 10px;
+}
+.rodape2 label{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Righteous', cursive; 
+}
+
+.insta img{
+width: 28px;
+padding: 10px;
+}
+.tt img{
+width: 28px;
+padding: 10px;
+} */
+
+.telalogin{
+    width: 30%;
+    color: #ffcc00;
+    font-size: 20px;
+    background: rgb(0, 0, 0) transparent;
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 150px;
+    border-radius: 50px;
+    border-style: outset;
+    border-color: #ffcc00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30%;
+
+}
+.telalogin input{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border-radius: 100px;
+    border: none;
+}
+.telalogin button{
+    background-color: #ffcc00;
+    width: 200px;
+    height: 30px;
+    outline: none;
+    color: #180047;
+    border-radius: 100px;
+    border: none;
+}
+.telalogin button:hover{
+    transform: scale(1.1)
+}
+.carousel-inner{
+    height: 50vh;
+    margin-top: 10vw;
+}
+.carousel-inner img{
+    width: 60%;
+    margin-left: 20%;
+}
+.carousel-capition{
+    margin-top: 1vh;
+}

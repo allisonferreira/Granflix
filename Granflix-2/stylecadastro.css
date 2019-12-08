@@ -1,0 +1,76 @@
+.areacadastro{
+    margin-top: 8vw;
+}
+.area1{
+    background-color: rgba(0, 0, 0, 0.6);
+    float: left;
+    width: 50%;
+    height: 26vw;
+    text-align: center;
+    color: #ffcc00;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.area2{
+    background-color: rgba(0, 0, 0, 0.6);
+    float: left;
+    width: 50%;
+    height: 26vw;
+    text-align: center;
+    color: #ffcc00;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.texto{
+    background-color: rgba(0, 0, 0, 0.6);
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 5vh;
+    color: #ffcc00;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+}
+
+.area1 input{
+    height: 4vh;
+    width: 35vh;
+    border-radius: 20px;
+    border: none;
+    outline: 0;
+
+}
+.area2 input{
+    height: 4vh;
+    width: 35vh;
+    border-radius: 20px;
+    border: none;
+    outline: 0;
+
+}
+
+.area1 select{
+    width: 20vh;
+    height: 4vh;
+    border-radius: 20px;
+    outline:none;
+}
+
+.area2 button{
+    width: 30vh;
+    height: 5vh;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 20px;
+    outline: 0;
+}
+.area2 button:hover{
+    transform: scale(1.1);
+    background-color: green;
+}
